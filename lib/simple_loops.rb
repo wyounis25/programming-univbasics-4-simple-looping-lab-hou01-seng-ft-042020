@@ -17,7 +17,7 @@ def loop_message_n_times(message, limit = 5)
 end
 
 
-def output_array(array = "All great achievements","require time","- Maya Angelou")
+def output_array(array)
   count = 0
   while count < array.length do
     puts array[count]
